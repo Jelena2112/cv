@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*Fonts*/
+.mainFont{font-family: 'Pacifico', cursive;}
+.secondFont{font-family: 'Kalam', cursive !important;}
+
+/*Background collors*/
+.bgAbout{background-color: #112233;}
+.bgBlack{background-color: black;}
+.bgCornflower { background-color: cornflowerblue; }
+
+/*Fonts colors*/
+.fontColorWhite{color: white;}
+.fontColorBlue{color:#131C9D;}
+.fontColorRed{color: red;}
+.fontColorBlack{color: black;}
+
+.hidden{display: none;}
+
+@keyframes rubberBand {
+	0% {transform: scale(1);}
+	30% {transform: scaleX(1.25) scaleY(0.75);}
+	40% {transform: scaleX(0.75) scaleY(1.25);}
+	60% {transform: scaleX(1.15) scaleY(0.85);}
+	100% {transform: scale(1);}
+}
+.rubberBand:hover {
+	animation-name: rubberBand;
+}
+
+.animated {
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+.animated_no_infinite {
+    animation-duration: 2.5s;
+    animation-fill-mode: both;
+}
+
+@keyframes hinge {
+    0% {transform: rotate(0);transform-origin: top left;animation-timing-function: ease-in-out;}
+    20%, 60% {transform: rotate(80deg);transform-origin: top left;animation-timing-function: ease-in-out;}
+    40% {transform: rotate(60deg);transform-origin: top left;animation-timing-function: ease-in-out;}
+    80% {transform: rotate(60deg) translateY(0);transform-origin: top left;animation-timing-function: ease-in-out;}
+    100% {transform: translateY(700px);}
+}
+
+.hinge {
+    margin: 20px;
+    animation-name: hinge;
+}
+@media screen and (min-width: 240px) and (max-width: 640px) {
+    .mobDispNone {
+        display: none !important;
+    }
+
+}
+
+

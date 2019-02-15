@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Jeca CV</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+        <link rel="stylesheet" type="text/css" href="css/navigation.css">
+		<link rel="stylesheet" type="text/css" href="css/about.css">
+		<link rel="stylesheet" type="text/css" href="css/skills.css">
+		<link rel="stylesheet" type="text/css" href="css/contact.css">
+		<link href="https://fonts.googleapis.com/css?family=Kalam:300,400|Pacifico" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+		<script type="text/javascript" src="js/particles.min.js"></script>
+        <script
+                src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                crossorigin="anonymous"></script>
+
+		<script
+				src="https://code.jquery.com/ui/1.8.23/jquery-ui.min.js"
+				integrity="sha256-sEFM2aY87nr5kcE4F+RtMBkKxBqHEc2ueHGNptOA5XI="
+				crossorigin="anonymous"></script>
+
+        <script src="js/effects.js"></script>
+	</head>
+
+	<body>
+		<div class="fixed bgBlack">
+			<div class="fixedLogo">
+				<p class="name mainFont fontColorWhite">Jelena</p>
+			</div>
+
+            <div class="navMob mobDispNone bgBlack">
+                <div  class="navItem"><i class="fas fa-home fontColorBlue"></i><a href="#home" class="iconText secondFont hidden fontColorWhite fontColorBlue">HOME</a></div>
+                <div  class="navItem"><i class="far fa-user fontColorWhite"></i><a href="#about" class="iconText secondFont hidden fontColorWhite fontColorBlue">ABOUT</a></div>
+                <div class="navItem"><i class="fas fa-laptop fontColorWhite"></i><a href="#skills" class="iconText secondFont hidden fontColorWhite fontColorBlue">SKILLS</a></div>
+                <div class="navItem"><i class="far fa-envelope fontColorWhite"></i><a  href="#contact" class="iconText secondFont hidden fontColorWhite fontColorBlue">CONTACT</a></div>
+            </div>
+
+
+			<div class="burgerNav fontColorWhite"><i class="fas fa-bars"></i></div>
+		</div>
+		<header id="home">
+			<div class="headerMain">
+				<div id="pt" class="welcome canvas">
+					<div class="welcomeText">
+						<h1 class="welcomeH1 mainFont fontColorWhite animated">
+							<span class='elasticAnim'>H</span><span class='elasticAnim'>i</span><span class='elasticAnim'>,</span><span class='elasticAnim'> </span><span class='elasticAnim'>I</span><span class='elasticAnim'>'</span><span class='elasticAnim'>m</span><span class='elasticAnim'> </span><span class='elasticAnim'>J</span><span class='elasticAnim'>e</span><span class='elasticAnim'>l</span><span class='elasticAnim'>e</span><span class='elasticAnim'>n</span><span class='elasticAnim'>a</span><span class='elasticAnim'>,</span><span class='elasticAnim'> </span><span class='elasticAnim'>w</span><span class='elasticAnim'>e</span><span class='elasticAnim'>b</span><span class='elasticAnim'> </span><span class='elasticAnim'>d</span><span class='elasticAnim'>e</span><span class='elasticAnim'>v</span><span class='elasticAnim'>e</span><span class='elasticAnim'>l</span><span class='elasticAnim'>o</span><span class='elasticAnim'>p</span><span class='elasticAnim'>e</span><span class='elasticAnim'>r</span><span class='elasticAnim'>.</span>
+						</h1>
+                        <p class="span hingeAnimation fontColorWhite secondFont animated_no_infinite">Front End Developer</p>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div id="about" class="about bgAbout">
+			<div class="imageOpacity">
+				<div class="aboutMe">
+					<h1 class="aboutName secondFont fontColorRed">Zivanovic <span class="elasticAnim fontColorWhite">Jelena</span></h1>
+					<p class="aboutText secondFont fontColorWhite">Etiam quis odio nunc. Cras ornare mi nec venenatis placerat. Donec sodales ut leo at vulputate. Nunc blandit velit sit amet nibh mollis tempor. Praesent hendrerit malesuada leo ut efficitur. Praesent tincidunt, eros et fermentum semper, lectus diam pulvinar lorem, et convallis nibh neque quis nisl. Pellentesque suscipit maximus ipsum, sit amet cursus erat porttitor sit amet. Quisque pulvinar sit amet leo ac molestie. Nullam tincidunt erat dui, vitae ultrices magna facilisis ac. In hac habitasse platea dictumst. Nunc vehicula accumsan justo eu condimentum. Donec tristique molestie lectus, eu fringilla lorem tempus non. Donec odio metus, fringilla pretium luctus nec, sollicitudin vitae justo. Aenean congue tortor vel est sollicitudin, tempor maximus mauris tempor. Vestibulum eu facilisis sapien.</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="skills" class="skills bgAbout">
+			<div class="skillsItem itemFirst"><p class="itemText text-flicker-in-glow fontColorWhite secondFont">HTML 5</p></div>
+			<div class="skillsItem itemSecond"><p class="itemText text-focus-in fontColorWhite secondFont fontSize">CSS 3</p></div>
+			<div class="skillsItem itemThird"><p class="itemText tracking-in-expand-fwd-top fontColorRed secondFont fontSize"> JS</p></div>
+			<div class="skillsItem itemFourth"><p class="itemText tracking-out-expand-fwd fontColorWhite secondFont">Responsive</p></div>
+		</div>
+
+		<div id="contact" class="contact">
+			<form  class="contactForm">
+				<h2 class="contactHeader fontColorBlue secondFont">CONTACT ME</h2>
+				<input  class="inputField secondFont bgCornflower" type="text" name="name" placeholder="Name">
+				<input class="inputField secondFont bgCornflower" type="email" name="email" placeholder="Email">
+				<input class="inputField secondFont bgCornflower" type="text" name="subject" placeholder="Subject">
+				<textarea class="inputField secondFont bgCornflower contactTextarea" rows="4" maxlength="550" placeholder="Message"></textarea>
+				<input class="inputField submitButton secondFont bgCornflower" type="submit">
+
+			</form>
+
+		</div>
+
+        <script src="js/pts.min.js"></script>
+        <script src="js/animate_pts.js"></script>
+	</body>
+
+</html>

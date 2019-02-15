@@ -1,0 +1,63 @@
+.headerMain{
+    width: 100%;
+    height: 100vh;
+    text-decoration: none;
+}
+.fa-home, .fa-user, .fa-laptop, .fa-envelope{
+    font-size: 35px;
+}
+.desktopDispNone{
+    display: none;
+}
+.welcome{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.welcomeText{
+    width: 890px;
+    height: auto;
+    margin-left: 120px;
+    margin-top: 45px;
+    position: absolute;
+}
+.welcomeH1{
+    font-size: 50px;
+    letter-spacing: 4px;
+    padding-left:  130px;
+    font-weight: 100;
+}
+.span{
+    width: 330px;
+    margin-left: 250px;
+    font-size: 35px;
+
+}
+@media screen and (min-width: 240px) and (max-width: 640px){
+
+    .fa-bars{
+        width: 100%;
+        height: 100%;
+        font-size:30px ;
+        padding-top: 25px;
+    }
+    .welcomeText{
+        width: 300px;
+        margin-left: 15px;
+    }
+    .welcomeH1{
+        text-indent: 0;
+        padding-top: 150px;
+        padding-left: 50px;
+        font-size: 31px;
+    }
+    .span{
+        width: 200px;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+}
+
+
+
